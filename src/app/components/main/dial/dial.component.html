@@ -1,0 +1,33 @@
+<div class="svg-container">
+    <svg class="svg">
+        <svg:circle id="outer" 
+            cx="50" 
+            cy="50" 
+            r="48" 
+            stroke="#fff" 
+            stroke-width="2"
+            fill="transparent"/>
+        <svg:circle id="dial" class="animated-dial"
+            #dial
+            cx="50" 
+            cy="50"
+            r="42"
+            stroke-width="6"
+            fill="transparent"
+            [attr.stroke] = "level.strokeColor"
+            stroke-dasharray = "263.89"
+            stroke-dashoffset = "-100"
+            />
+        <svg:circle id="inner"
+            cx="50" 
+            cy="50"
+            r="36"
+            stroke-width="2"
+            stroke="white"
+            fill="transparent"
+            />
+    </svg>
+    <div class="title">
+        {{level.title}}
+    </div>
+</div>

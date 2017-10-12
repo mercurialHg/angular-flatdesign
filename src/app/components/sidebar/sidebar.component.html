@@ -1,0 +1,57 @@
+<section class="sidebar">
+  <section class="image-container">
+    <img src="../../../assets/images/headshot_med.jpg" class="image" alt="">
+  </section>
+  <section class="section contacts">
+    <header class="applicant section__title blue ">
+      <h1 class="applicant__name section__title-font">Henry Soaz</h1>
+      <h3 class="applicant__desired-position section__subtitle-font"> UI/UX Designer </h3>
+    </header>
+    <main class="contacts">
+      <div class="contact address upper">
+        <i class="icon"></i>
+        <div class="content">Address Line, Example Street, 123 B/2 678</div>
+      </div>
+      <div class="contact tel">
+        <i class="icon"></i>
+        <div class="content">008 659 864 4568 </div>
+      </div>
+      <a class="contact site" href="https://www.example.com">
+        <i class="icon"></i>
+        <div class="content">www.ownsite.com</div>
+    </a>
+      <a class="contact email" href="mailto:contact@email.com">
+          <i class="icon"></i>
+          <div class="content">contact@email.com</div>
+    </a>
+    </main>
+  </section>
+  <section class="section profile">
+    <h2 class="section__title section__title-font yellow ">Profile</h2>
+    <div class="section__content">
+      <p class="profile__description">
+        Sapien enim dapibus parturient vel cum adipiscing a adipiscing a eu a senectus a scelerisque nisi a platea interdum egestas
+        libero metus parturient ultrices mi egestas duis consectetur vitae.Habitant tempor ullamcorper vestibulum ullamcorper
+        in volutpat ridiculus tempus risus class aliquet quisque maecenas cum ac dis eleifend.
+      </p>
+    </div>
+
+  </section>
+  <section class="section skills">
+    <h2 class="section__title section__title-font green ">Skills</h2>
+    <div class="skills__content">
+      <app-skill [level]="level.photography" [skill]="skills[0]">
+      </app-skill>
+      <app-skill [level]="level.webDesign" [skill]="skills[1]">
+      </app-skill>
+      <app-skill [level]="level.uiux" [skill]="skills[2]">
+      </app-skill>
+    </div>
+  </section>
+  <section class="hobbies">
+    <h2 class="section__title section__title-font red ">Hobbies</h2>
+    <p class="hobbies__content upper">
+      Tennis, Soccer, Swimming, Golf, Baseball
+    </p>
+  </section>
+</section>
